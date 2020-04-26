@@ -14,7 +14,7 @@ using namespace std;
 void partSum(const vector<int>& data, int N, int tid, vector<int>& result){
     int len = data.size() / N;
     int addi = data.size() % N;
-    int start, end;
+    int start, end; // compute from start to end(include)
     if(tid < addi){
         start = tid * (len + 1);
         end = start + len;

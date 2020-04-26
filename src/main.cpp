@@ -2,6 +2,7 @@
 #include <thread>
 #include "BlockingConcurrentQueue.h"
 #include "ArraySum.h"
+#include "ReadWriteLock.h"
 
 using namespace std;
 
